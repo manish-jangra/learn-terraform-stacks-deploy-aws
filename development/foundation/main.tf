@@ -8,7 +8,7 @@ data "aws_availability_zones" "azs" {
 
 module "cluster_vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "5.19.0"
+  version = "6.6.0"
 
   name                 = "hcp-development"
   cidr                 = "10.0.0.0/16"
